@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Testing and analysis
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project private data, large datasets, local ledgers, checkpoints
+.agent-local/
+data/raw/
+data/checkpoints/
+data/replays/
+data/scratch/
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.npz
+
+# Evidence run directories
+evidence_tmp/
+runs/

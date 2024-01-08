@@ -1,0 +1,67 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kinesis-control"
+version = "0.1.0"
+description = "Learned world models and uncertainty-aware control under hidden dynamics shifts"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+authors = [
+    {name = "Aneesh Krishna", email = "aneeshkrishnaparthasarathy@gmail.com"}
+]
+keywords = [
+    "world-models",
+    "reinforcement-learning",
+    "model-based-rl",
+    "latent-planning",
+    "partially-observed-control",
+    "mujoco"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+dependencies = [
+    "torch>=2.1.0",
+    "numpy>=1.26.0",
+    "scipy>=1.11.0",
+    "dm_control>=1.0.14",
+    "mujoco>=3.1.0",
+    "matplotlib>=3.8.0",
+    "pyyaml>=6.0.1"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.3.0",
+    "mypy>=1.8.0"
+]
+
+[project.scripts]
+kinesis = "kinesis.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+ignore_missing_imports = true
+warn_unused_ignores = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
