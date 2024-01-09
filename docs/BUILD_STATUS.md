@@ -8,7 +8,7 @@ Remote Tip: https://github.com/Aneesh495/kinesis-control (branch: main)
 
 | Phase | Description | Status | Commit / Notes |
 |---|---|---|---|
-| Phase 01 | Repository initialization, contracts, build skeleton | in_progress | Initializing base project skeleton |
+| Phase 01 | Repository initialization, contracts, build skeleton | in_progress | Implemented and tested versioned contracts (action, observation, transition, episode) |
 | Phase 02 | Independent analytic control fixtures (LQR / Kalman / Riccati) | pending | Pending Phase 01 completion |
 | Phase 03 | Task and partial observation wrappers with shift profiles | pending | Pending Phase 02 completion |
 | Phase 04 | Bounded immutable replay and atomic recovery | pending | Pending Phase 03 completion |
