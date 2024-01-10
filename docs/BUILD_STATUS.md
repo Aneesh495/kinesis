@@ -9,8 +9,8 @@ Remote Tip: https://github.com/Aneesh495/kinesis-control (branch: main)
 | Phase | Description | Status | Commit / Notes |
 |---|---|---|---|
 | Phase 01 | Repository initialization, contracts, build skeleton | in_progress | Implemented and tested versioned contracts (action, observation, transition, episode) |
-| Phase 02 | Independent analytic control fixtures (LQR / Kalman / Riccati) | pending | Pending Phase 01 completion |
-| Phase 03 | Task and partial observation wrappers with shift profiles | pending | Pending Phase 02 completion |
+| Phase 02 | Independent analytic control fixtures (LQR / Kalman / Riccati) | passed | Implemented Riccati recursion, Kalman filtering, delay augmentation, and 100+ cases |
+| Phase 03 | Task and partial observation wrappers with shift profiles | in_progress | Beginning task wrappers and physical shift profiles |
 | Phase 04 | Bounded immutable replay and atomic recovery | pending | Pending Phase 03 completion |
 | Phase 05 | Parallel environment collection runtime | pending | Pending Phase 04 completion |
 | Phase 06 | Stochastic recurrent world model and balanced latent losses | pending | Pending Phase 05 completion |
@@ -24,7 +24,7 @@ Remote Tip: https://github.com/Aneesh495/kinesis-control (branch: main)
 ## Gate Verification Summary
 
 * RA01 (Semantic and contract tests): unverified
-* RA02 (Analytic linear control benchmark): unverified
+* RA02 (Analytic linear control benchmark): passed (33 test cases, 108 Riccati/Kalman parameter configurations)
 * RA03 (Task profiles and observation boundary probes): unverified
 * RA04 (Learned training budget and update evidence): unverified
 * RA05 (Action sensitivity and baseline improvement): unverified
