@@ -12,8 +12,8 @@ Remote Tip: https://github.com/Aneesh495/kinesis-control (branch: main)
 | Phase 02 | Independent analytic control fixtures (LQR / Kalman / Riccati) | passed | Implemented Riccati recursion, Kalman filtering, delay augmentation, and 100+ cases |
 | Phase 03 | Task and partial observation wrappers with shift profiles | passed | Pinned tasks, observation delay/noise wrapper, and 6 frozen shift profiles verified |
 | Phase 04 | Bounded immutable replay and atomic recovery | passed | Immutable checksummed chunks, boundary-safe sequence sampling, and atomic checkpoints verified |
-| Phase 05 | Parallel environment collection runtime | in_progress | Beginning concurrent collector with worker tokens and backpressure |
-| Phase 06 | Stochastic recurrent world model and balanced latent losses | pending | Pending Phase 05 completion |
+| Phase 05 | Parallel environment collection runtime | passed | Worker generation tokens, stale response rejection, and budget tracking verified |
+| Phase 06 | Stochastic recurrent world model and balanced latent losses | in_progress | Beginning RSSM models, encoders, and balanced latent loss functions |
 | Phase 07 | Model-free and non-uncertainty latent baselines | pending | Pending Phase 06 completion |
 | Phase 08 | Uncertainty-aware latent trajectory planner (CEM / MPPI) | pending | Pending Phase 07 completion |
 | Phase 09 | Closed-loop execution runtime and online adaptation | pending | Pending Phase 08 completion |
