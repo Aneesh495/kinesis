@@ -13,8 +13,8 @@ Remote Tip: https://github.com/Aneesh495/kinesis-control (branch: main)
 | Phase 03 | Task and partial observation wrappers with shift profiles | passed | Pinned tasks, observation delay/noise wrapper, and 6 frozen shift profiles verified |
 | Phase 04 | Bounded immutable replay and atomic recovery | passed | Immutable checksummed chunks, boundary-safe sequence sampling, and atomic checkpoints verified |
 | Phase 05 | Parallel environment collection runtime | passed | Worker generation tokens, stale response rejection, and budget tracking verified |
-| Phase 06 | Stochastic recurrent world model and balanced latent losses | in_progress | Beginning RSSM models, encoders, and balanced latent loss functions |
-| Phase 07 | Model-free and non-uncertainty latent baselines | pending | Pending Phase 06 completion |
+| Phase 06 | Stochastic recurrent world model and balanced latent losses | passed | RSSM dynamics, causal prefix invariance, action sensitivity, and balanced KL losses verified |
+| Phase 07 | Model-free and non-uncertainty latent baselines | in_progress | Beginning PPO/actor-critic and non-uncertainty planner baselines |
 | Phase 08 | Uncertainty-aware latent trajectory planner (CEM / MPPI) | pending | Pending Phase 07 completion |
 | Phase 09 | Closed-loop execution runtime and online adaptation | pending | Pending Phase 08 completion |
 | Phase 10 | Seeded evaluation suite across nominal and shifted profiles | pending | Pending Phase 09 completion |
