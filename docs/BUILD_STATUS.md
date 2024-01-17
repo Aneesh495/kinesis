@@ -15,8 +15,8 @@ Remote Tip: https://github.com/Aneesh495/kinesis-control (branch: main)
 | Phase 05 | Parallel environment collection runtime | passed | Worker generation tokens, stale response rejection, and budget tracking verified |
 | Phase 06 | Stochastic recurrent world model and balanced latent losses | passed | RSSM dynamics, causal prefix invariance, action sensitivity, and balanced KL losses verified |
 | Phase 07 | Model-free and non-uncertainty latent baselines | passed | Heuristic controllers, model-free PPO, GAE, and imagined latent actor-critic verified |
-| Phase 08 | Uncertainty-aware latent trajectory planner (CEM / MPPI) | in_progress | Beginning ensemble disagreement and uncertainty-penalized latent planning |
-| Phase 09 | Closed-loop execution runtime and online adaptation | pending | Pending Phase 08 completion |
+| Phase 08 | Uncertainty-aware latent trajectory planner (CEM / MPPI) | passed | Ensemble disagreement, CEM, MPPI, and deadline-monitored planner policy verified |
+| Phase 09 | Closed-loop execution runtime and online adaptation | in_progress | Beginning closed-loop execution loop and adaptation coordinator |
 | Phase 10 | Seeded evaluation suite across nominal and shifted profiles | pending | Pending Phase 09 completion |
 | Phase 11 | Trajectory inspection viewer and diagnostic visualizer | pending | Pending Phase 10 completion |
 | Phase 12 | Evidence bundle generation, independent verifier, release | pending | Pending Phase 11 completion |
