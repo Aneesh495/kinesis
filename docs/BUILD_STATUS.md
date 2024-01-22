@@ -18,8 +18,8 @@ Remote Tip: https://github.com/Aneesh495/kinesis-control (branch: main)
 | Phase 08 | Uncertainty-aware latent trajectory planner (CEM / MPPI) | passed | Ensemble disagreement, CEM, MPPI, and deadline-monitored planner policy verified |
 | Phase 09 | Closed-loop execution runtime and online adaptation | passed | Information boundary checks, replay updates, and post-shift adaptation verified |
 | Phase 10 | Seeded evaluation suite across nominal and shifted profiles | passed | Benchmark metrics, counterfactual paired seeds, error gap analysis, and ablations verified |
-| Phase 11 | Trajectory inspection viewer and diagnostic visualizer | in_progress | Beginning trajectory viewer and actual-vs-imagined visualizer |
-| Phase 12 | Evidence bundle generation, independent verifier, release | pending | Pending Phase 11 completion |
+| Phase 11 | Trajectory inspection viewer and diagnostic visualizer | passed | ASCII trajectory inspector, actual vs imagined charts, and benchmarks verified |
+| Phase 12 | Evidence bundle generation, independent verifier, release | in_progress | Beginning acceptance evidence builder, independent verifier, and 12 negative controls |
 
 ## Gate Verification Summary
 
