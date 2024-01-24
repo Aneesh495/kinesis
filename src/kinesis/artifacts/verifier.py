@@ -139,11 +139,17 @@ def verify_evidence_bundle(bundle_path: Path | str) -> dict[str, Any]:
 
 
 def main() -> None:
-    if len(sys.argv) < 2:
-        print("Usage: python -m kinesis.artifacts.verifier <path_to_evidence_bundle>")
+    import argparse
+    parser = argparse.ArgumentParser(description="Independently verify acceptance evidence bundle")
+    parser.add_argument("bundle_path", nargs="?", default=None, help="Path to evidence bundle directory")
+    parser.add_argument("--evidence", dest="evidence_flag", default=None, help="Path to evidence bundle directory")
+    args = parser.parse_args()
+
+    target_dir = args.evidence_flag or args.bundle_path
+    if not target_dir:
+        parser.print_help()
         sys.exit(1)
 
-    target_dir = sys.argv[1]
     try:
         res = verify_evidence_bundle(target_dir)
         print(f"[VERIFIED] Evidence bundle {target_dir} passed independent audit successfully!")
