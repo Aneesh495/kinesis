@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "run_id": "kinesis_acceptance_v1",
+  "completed_episodes_count": 9,
+  "total_simulator_interactions": 618,
+  "privileged_leakage_detected": false,
+  "verified_negative_controls": 12
+}

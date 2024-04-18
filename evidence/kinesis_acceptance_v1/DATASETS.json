@@ -1,0 +1,21 @@
+{
+  "benchmark_suite": "DeepMind Control Suite (dm_control)",
+  "split_manifest": "kinesis_standard_v1",
+  "train_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "eval_seeds": [
+    220,
+    221,
+    222
+  ]
+}

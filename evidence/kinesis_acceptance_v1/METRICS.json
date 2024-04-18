@@ -1,0 +1,30 @@
+{
+  "nominal_metrics": {
+    "method_name": "heuristic_baseline",
+    "task_name": "cartpole_swingup",
+    "shift_name": "nominal",
+    "num_episodes": 3,
+    "mean_return": 0.01366526369771929,
+    "std_return": 0.011670807936842999,
+    "sem_return": 0.006738144103996727,
+    "median_return": 0.019095439103745986,
+    "success_rate": 0.0,
+    "mean_cost": 0.19360000640153885,
+    "total_simulator_substeps": 246,
+    "total_policy_decisions": 120,
+    "fallback_rate": 0.0
+  },
+  "total_eval_episodes": 9,
+  "shifts_evaluated": [
+    "actuator_deadband",
+    "actuator_delay",
+    "friction_perturbation",
+    "mass_inertia",
+    "sensor_dropout",
+    "combined_stress"
+  ],
+  "required_baselines_present": [
+    "random",
+    "heuristic"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "run_id": "kinesis_acceptance_v1",
+  "git_commit": "93ba8bd2d4922f9de7ed105d0bc76a079f8998d7",
+  "timestamp_utc": "2026-10-10T23:04:44.304799+00:00",
+  "python_version": "3.12.14",
+  "platform": "macOS-26.7.2-arm64-arm-64bit",
+  "files": {
+    "ABLATIONS.json": {
+      "relative_path": "ABLATIONS.json",
+      "sha256": "cfa2007d7fe10981b3fe28ba3865feefa9358b1994e34aff6a04f098d3318f2b",
+      "byte_size": 279
+    },
+    "ACCEPTANCE.json": {
+      "relative_path": "ACCEPTANCE.json",
+      "sha256": "2b15ba4df91d16b9de36cb295805363478783f6c379df33bf6636b0e143cebc0",
+      "byte_size": 209
+    },
+    "BENCHMARK.json": {
+      "relative_path": "BENCHMARK.json",
+      "sha256": "3a834bf3fde009bf3c95cf9b9f504005d21a1ee771da43e7322971579b16696d",
+      "byte_size": 377
+    },
+    "COMMANDS.jsonl": {
+      "relative_path": "COMMANDS.jsonl",
+      "sha256": "6f561cf7047a51f1ef8df54b5ca9f99fa502dd0c5a9264cf85f9ec1bd9871756",
+      "byte_size": 109
+    },
+    "DATASETS.json": {
+      "relative_path": "DATASETS.json",
+      "sha256": "7f69f91270950a6fd813faee8205764e659227716229164ac4e62e4dbeb5bb63",
+      "byte_size": 267
+    },
+    "ENVIRONMENT.json": {
+      "relative_path": "ENVIRONMENT.json",
+      "sha256": "87ebfac3edb30b705d0a1c0e1a804ed6102c5cbe775044b0997899eb78714328",
+      "byte_size": 250
+    },
+    "METRICS.json": {
+      "relative_path": "METRICS.json",
+      "sha256": "f9fb7999813005e8a4ed8f4c7d9ca83b9401fb15525b514596eb16881ba126f2",
+      "byte_size": 749
+    },
+    "SOURCE_INPUTS.json": {
+      "relative_path": "SOURCE_INPUTS.json",
+      "sha256": "b4c1eb257f89c34b88da880ad31d682e4f74d4234b7e45393d37402de68d54da",
+      "byte_size": 350
+    },
+    "checkpoints/world_model_seed_42.pt": {
+      "relative_path": "checkpoints/world_model_seed_42.pt",
+      "sha256": "2d5ed6c53bc684a13e22d7ece28aee51db55dc474be7589962f4e0f1cd09f72c",
+      "byte_size": 103805
+    },
+    "trajectories/ep_actuator_attenuation_seed_220.json": {
+      "relative_path": "trajectories/ep_actuator_attenuation_seed_220.json",
+      "sha256": "a267582f73bf1ede63411e21c20f3c472fe2eeb6952e0dee72e24df27cdac158",
+      "byte_size": 23199
+    },
+    "trajectories/ep_actuator_delay_seed_220.json": {
+      "relative_path": "trajectories/ep_actuator_delay_seed_220.json",
+      "sha256": "b591fd1b459bcc74e2c24a51b1c2608930d7e68f2e4bce453161d0164d89b4ea",
+      "byte_size": 23373
+    },
+    "trajectories/ep_combined_stress_seed_220.json": {
+      "relative_path": "trajectories/ep_combined_stress_seed_220.json",
+      "sha256": "4594279bc7174f88036636375fc85d754e2c6bd04fcc17ed7161bf198d55ddd6",
+      "byte_size": 23509
+    },
+    "trajectories/ep_friction_reduction_seed_220.json": {
+      "relative_path": "trajectories/ep_friction_reduction_seed_220.json",
+      "sha256": "e7a1be487012903d0701961cf59fb0bffdd0d0385c7926f6973e2539a1ba6ae0",
+      "byte_size": 23376
+    },
+    "trajectories/ep_mass_increase_seed_220.json": {
+      "relative_path": "trajectories/ep_mass_increase_seed_220.json",
+      "sha256": "a7fb7900a6f02bde26381bf6a885ba9e59c8fb915f359388e3041ccaedeebf29",
+      "byte_size": 23275
+    },
+    "trajectories/ep_nominal_seed_220.json": {
+      "relative_path": "trajectories/ep_nominal_seed_220.json",
+      "sha256": "f3471a0869d660c4b10b68a9c0624ff8ff0b29e122ffbb5e8b7a7c2e6ed42e1f",
+      "byte_size": 30832
+    },
+    "trajectories/ep_nominal_seed_221.json": {
+      "relative_path": "trajectories/ep_nominal_seed_221.json",
+      "sha256": "dc429e7da24b37967fc71e7a2bd7ff98ea89ae143eb0b697a7e92850c128a81e",
+      "byte_size": 30651
+    },
+    "trajectories/ep_nominal_seed_222.json": {
+      "relative_path": "trajectories/ep_nominal_seed_222.json",
+      "sha256": "b8f80b48eb27ddc9dbe1b7a1fcd577e261cce7f8db81c39499a37a02a3d3560a",
+      "byte_size": 30687
+    },
+    "trajectories/ep_sensor_degradation_seed_220.json": {
+      "relative_path": "trajectories/ep_sensor_degradation_seed_220.json",
+      "sha256": "36e868630659f824a139d7d4b2f6aa5dc3ee2f953347ecf607788f891d070775",
+      "byte_size": 22951
+    }
+  }
+}

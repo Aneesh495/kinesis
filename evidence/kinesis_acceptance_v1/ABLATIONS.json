@@ -1,0 +1,16 @@
+{
+  "results": [
+    {
+      "family": "planning_horizon",
+      "condition": "H_3",
+      "return": 0.7053867504632381,
+      "seed": 220
+    },
+    {
+      "family": "planning_horizon",
+      "condition": "H_6",
+      "return": 0.2128623413704133,
+      "seed": 220
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "encoder_latency_ms": 0.021758299650779613,
+  "imagine_step_latency_ms": 0.04668186702474486,
+  "cem_plan_latency_ms": 2.214191600069171,
+  "env_step_latency_ms": 0.10330833332166851,
+  "replay_sample_throughput_seq_per_sec": 80249.34428538677,
+  "training_throughput_updates_per_sec": 138.69240797392243,
+  "peak_rss_mib": 493.9375,
+  "short_reps": 30,
+  "long_reps": 10
+}

@@ -1,0 +1,18 @@
+{
+  "git_commit": "93ba8bd2d4922f9de7ed105d0bc76a079f8998d7",
+  "tasks": [
+    "cartpole_swingup",
+    "walker_walk",
+    "finger_spin"
+  ],
+  "shift_profiles": [
+    "nominal",
+    "actuator_attenuation",
+    "actuator_delay",
+    "friction_reduction",
+    "mass_increase",
+    "sensor_degradation",
+    "combined_stress"
+  ],
+  "action_repeat": 2
+}
