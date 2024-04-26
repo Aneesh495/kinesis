@@ -15,8 +15,9 @@ def test_spectral_linear_norm_bounding():
     layer.weight.data *= 10.0
 
     x = torch.randn(4, 10)
-    # Forward pass updates power iteration singular vectors
-    out = layer(x)
+    # Forward passes update power iteration singular vectors
+    for _ in range(5):
+        out = layer(x)
 
     # Compute actual singular values of weight via SVD
     with torch.no_grad():
